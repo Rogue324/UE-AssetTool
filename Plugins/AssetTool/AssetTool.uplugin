@@ -1,0 +1,16 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "Asset Tool",
+  "Description": "Base plugin structure for UE asset tooling.",
+  "Category": "Tools",
+  "CreatedBy": "UE-AssetTool",
+  "Modules": [
+    {
+      "Name": "AssetTool",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ]
+}
