@@ -13,10 +13,15 @@ public class AssetTool : ModuleRules
 
         PrivateDependencyModuleNames.AddRange(new string[]
         {
+            "AssetTools",
+            "ContentBrowser",
             "CoreUObject",
+            "EditorScriptingUtilities",
             "Engine",
             "Slate",
-            "SlateCore"
+            "SlateCore",
+            "ToolMenus",
+            "UnrealEd"
         });
     }
 }
